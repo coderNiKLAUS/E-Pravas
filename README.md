@@ -3,4 +3,8 @@ E-Pravas is an Online Bus Ticket ReserReservation Website, Designed for PMPML Pv
 
 ## As of Now
 1.Contact Us Page has been added to the repository by @coderNiKlaus. <br>
-2.Everything is ready on the contact us page except the scroll-top button customization, which will be fixed soon.
+2.Update to Contact Us:
+3. Removed the Toggle Up button for now due to complexities, will add in next update.
+4. Cartoon image added next to form.
+5. Frequently Asked Questions added as per requirement with style, etc.
+6. Modified Social Slider
