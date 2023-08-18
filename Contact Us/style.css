@@ -242,7 +242,7 @@ h1 {
 
 .floating-btn {
   border-radius: 26.5px;
-  background-color: #001F61;
+  background-color: #00268d;
   border: 1px solid #001F61;
   box-shadow: 0 16px 22px -17px #03153B;
   color: #fff;
@@ -339,7 +339,7 @@ h1 {
 .line div:nth-child(3) {
   height: 3px;
   width: 70px;
-  background: #552cec;
+  background: #007bff;
   border-radius: 5px;
 }
 
@@ -351,7 +351,7 @@ h1 {
 .line div:nth-child(2) {
   width: 10px;
   height: 10px;
-  background: #552cec;
+  background: #007bff;
   border-radius: 50%;
 }
 
@@ -384,7 +384,7 @@ h1 {
 .contact-info span .fas {
   font-size: 2rem;
   padding-bottom: 0.9rem;
-  color: #552cec;
+  color: #007bff;
 }
 
 .contact-info div span:nth-child(2) {
@@ -408,7 +408,7 @@ h1 {
 .form-control {
   width: 100%;
   border: 1.5px solid #c7c7c7;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.7rem;
   margin: 0.6rem 0;
   font-family: 'Open Sans', sans-serif;
@@ -431,9 +431,9 @@ h1 {
   font-size: 1rem;
   text-transform: uppercase;
   color: #fff;
-  background: #552cec;
+  background: #007bff;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.7rem 1.5rem;
   cursor: pointer;
   transition: all 0.4s ease;
