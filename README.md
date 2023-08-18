@@ -1,5 +1,5 @@
 # E-Pravas 
-E-Pravas is an Online Bus Ticket ReserReservation Website, Designed for PMPML Pvt. LTD. by Coder Infinity Team
+E-Pravas is an Online Bus Ticket ReserReservation Website, Designed for PMPML Pvt. LTD. by Code Infinity Team
 
 ## As of Now
 1. Contact Us Page has been added to the repository by @coderNiKlaus. <br>
