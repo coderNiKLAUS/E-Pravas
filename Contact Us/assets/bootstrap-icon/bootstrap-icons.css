@@ -1,0 +1,47 @@
+@font-face {
+    font-display: block;
+    font-family: "bootstrap-icons";
+    src: url("./fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff2"),
+  url("./fonts/bootstrap-icons.woff?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff");
+  }
+  
+  .bi::before,
+  [class^="bi-"]::before,
+  [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .bi-arrow-up-circle-fill::before { content: "\f139"; }
+  .bi-arrow-up-circle::before { content: "\f13a"; }
+  .bi-arrow-up-left-circle-fill::before { content: "\f13b"; }
+  .bi-arrow-up-left-circle::before { content: "\f13c"; }
+  .bi-arrow-up-left-square-fill::before { content: "\f13d"; }
+  .bi-arrow-up-left-square::before { content: "\f13e"; }
+  .bi-arrow-up-left::before { content: "\f13f"; }
+  .bi-arrow-up-right-circle-fill::before { content: "\f140"; }
+  .bi-arrow-up-right-circle::before { content: "\f141"; }
+  .bi-arrow-up-right-square-fill::before { content: "\f142"; }
+  .bi-arrow-up-right-square::before { content: "\f143"; }
+  .bi-arrow-up-right::before { content: "\f144"; }
+  .bi-arrow-up-short::before { content: "\f145"; }
+  .bi-arrow-up-square-fill::before { content: "\f146"; }
+  .bi-arrow-up-square::before { content: "\f147"; }
+  .bi-arrow-up::before { content: "\f148"; }
+  .bi-box-arrow-up-left::before { content: "\f1c4"; }
+  .bi-box-arrow-up::before { content: "\f1c6"; }
+  .bi-box-arrow-up-right::before { content: "\f1c5"; }
+  .bi-cloud-arrow-up::before { content: "\f297"; }
+  .bi-cloud-arrow-up-fill::before { content: "\f296"; }
+  .bi-file-arrow-up::before { content: "\f348"; }
+  .bi-file-arrow-up-fill::before { content: "\f347"; }
+  .bi-file-earmark-arrow-up::before { content: "\f358"; }
+  .bi-file-earmark-arrow-up-fill::before { content: "\f357"; }
+  .bi-journal-arrow-up::before { content: "\f43b"; }
