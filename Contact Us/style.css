@@ -242,7 +242,7 @@ h1 {
 
 .floating-btn {
   border-radius: 26.5px;
-  background-color: #00268d;
+  background-color: #001F61;
   border: 1px solid #001F61;
   box-shadow: 0 16px 22px -17px #03153B;
   color: #fff;
@@ -339,7 +339,7 @@ h1 {
 .line div:nth-child(3) {
   height: 3px;
   width: 70px;
-  background: #007bff;
+  background: #552cec;
   border-radius: 5px;
 }
 
@@ -351,7 +351,7 @@ h1 {
 .line div:nth-child(2) {
   width: 10px;
   height: 10px;
-  background: #007bff;
+  background: #552cec;
   border-radius: 50%;
 }
 
@@ -384,7 +384,7 @@ h1 {
 .contact-info span .fas {
   font-size: 2rem;
   padding-bottom: 0.9rem;
-  color: #007bff;
+  color: #552cec;
 }
 
 .contact-info div span:nth-child(2) {
@@ -408,7 +408,7 @@ h1 {
 .form-control {
   width: 100%;
   border: 1.5px solid #c7c7c7;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0.7rem;
   margin: 0.6rem 0;
   font-family: 'Open Sans', sans-serif;
@@ -431,9 +431,9 @@ h1 {
   font-size: 1rem;
   text-transform: uppercase;
   color: #fff;
-  background: #007bff;
+  background: #552cec;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0.7rem 1.5rem;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -485,8 +485,8 @@ h1 {
 }
 
 .social-links a:hover {
-  color: #f7327a;
-  border-color: #f7327a;
+  color: #552cec;
+  border-color: #552cec;
 }
 
 @media screen and (min-width: 768px) {
@@ -518,4 +518,35 @@ h1 {
   .contact-info {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 70px;
+  z-index: 99999;
+  background: #552cec;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  /*background: rgba(39, 167, 118, 0.8);*/
+
+  color: #fff;
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 70px;
 }
