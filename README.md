@@ -7,4 +7,5 @@ E-Pravas is an Online Bus Ticket Reservation Website, Designed for PMPML Pvt. LT
 3. Added the Toggle Up button.<br>
 4. Cartoon image added next to form.<br>
 5. Frequently Asked Questions added as per requirement with style, etc.<br>
-6. Modified Social Slider.
+6. Modified Social Slider.<br>
+7. Added About Us Page which is under development.<br>
